@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #ff4e50, #f9d423);
+  color: #fff;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.perfil {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 20px;
+  border-radius: 15px;
+}
+
+.perfil img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin: 20px;
+}
+
+.perfil div {
+  max-width: 400px;
+}
+
+.perfil h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.projetos {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.projetos h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.2);
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 400px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.card p {
+  margin-bottom: 15px;
+}
+
+.card a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #fff;
+  color: #ff4e50;
+  text-decoration: none;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.card a:hover {
+  background: #f9d423;
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  margin-top: 40px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
